@@ -1,3 +1,3 @@
 # go-started
 
-current: https://go.dev/doc/tutorial/add-a-test
+current: https://go.dev/doc/tutorial/govulncheck
