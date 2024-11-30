@@ -74,8 +74,8 @@ func addCity(db *sql.DB, city City) (int64, error) {
 func main() {
 	var db *sql.DB
 	cfg := mysql.Config{
-		User:   os.Getenv("DBUSER"),
-		Passwd: os.Getenv("DBPASS"),
+		User:   os.Getenv("DB-USER"),
+		Passwd: os.Getenv("DB-PASS"),
 		Net:    "tcp",
 		Addr:   "localhost:3306",
 		DBName: "world",
